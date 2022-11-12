@@ -13,6 +13,7 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
+    margin: 0 auto;
     flex-direction: column;
 }
 
@@ -32,7 +33,7 @@ input {
     width: 100%;
     padding: 1rem;
     border-radius: 10px;
-    margin: 5px;
+    margin-bottom: 5px;
 }
 
 input:focus {
