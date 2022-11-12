@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #333;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+h1 {
+    color: limegreen;
+}
+
+label {
+    color: limegreen;
+}
+
+small {
+    color: blueviolet;
+}
+
+input {
+    width: 100%;
+    padding: 1rem;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+input:focus {
+    outline-color: blueviolet;
+}
